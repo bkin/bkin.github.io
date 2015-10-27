@@ -5,6 +5,9 @@ date:   2015-10-20 09:32:03
 categories: perf perf_events profiling tutorial premature_optimization
 ---
 
+Welcome!
+===
+
 Welcome to my little series on profiling applications in Linux with the superb
 tracing and profiling tool `perf`. There are a number of tutorials and articles
 about `perf` already, so why write another one? I have spent considerable time
@@ -15,16 +18,22 @@ adding some more documentation is may way of paying it forward.
 
 Also, while `perf`'s documentation is pretty good and the ever increasing
 number of tutorials cover a lot of ground, the environment that I am personally
-working in is a little underprepresented:
-  * C++ application too large to keep in a single head completely
+working in is a little underrepresented:
+  * C++ application too large to keep in my head completely
+  * Many developers with different programming styles
   * Large, constantly evolving feature set
-  * Maintenance presumably required for a decades
+  * Maintenance presumably required for a decade
   * Performance not the primary concern
 
 I could imagine that this is fairly typical for an enterprise application and
 something that quite a few developers find themselves to be working with. Maybe
 I'm wrong and everybody else is working on superscalable web applications these
 days, in which case I'm just scratiching my onw itch here. Whatever.
+
+
+What is performance, anyway?
+---
+
 
 “Rules of Optimization:
 Rule 1: Don't do it.
